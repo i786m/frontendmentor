@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:375px) {
+  .container {
+   
+    
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.container {
+  height: 520px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color : hsl(0, 0%, 100%);
+  display : flex;
+  flex-direction : column;
+  border-radius : 20px;
+  padding : 20px;
+}
+
+img{
+  border-radius: 20px;
+  width : 100%;
+  height : auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  color:hsl(218, 44%, 22%);
+  font-size: 25px;
+}
+p{
+  padding: 0 10%;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+
+}
+
+.attribution a{
+  text-decoration: none;
+}
+.attribution a:hover { color: hsl(228, 45%, 44%); }
